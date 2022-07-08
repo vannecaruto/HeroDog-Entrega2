@@ -116,10 +116,19 @@ article img{
 	padding: 30px 10px;
 }
 
+.preguntas{
+	background: linear-gradient(#6C6E6F, #ffff);
+	padding: 4rem;
+}
+
 /** animaciones**/
 
 .scale:hover{
 	transform: scaleX(1.1);
 }
 
-
+.box{
+	background-color: rgba(119, 136, 153, 0.2);
+	padding: 0 30px;
+	margin: 15px 30px;
+}
