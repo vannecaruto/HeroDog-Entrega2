@@ -35,7 +35,7 @@ h4{
 
 p{
 	color: #50627C;
-	font-size: 1.7rem;
+	font-size: 1.5rem;
 }
 
 .nav{
@@ -122,6 +122,9 @@ article img{
 }
 
 /** animaciones**/
+.scale{
+	transition: transform 1.5s;
+}
 
 .scale:hover{
 	transform: scaleX(1.1);
@@ -131,4 +134,8 @@ article img{
 	background-color: rgba(119, 136, 153, 0.2);
 	padding: 0 30px;
 	margin: 15px 30px;
+}
+
+.footer{
+	background-color: rgba(0, 0, 0, 0.2);
 }
